@@ -1,4 +1,132 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+.btn-gral, .btn-rounded {
+  width: 200px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  background-color: deeppink;
+}
+
+.btn-rounded {
+  border-radius: 4px;
+}
+
+.header-gral, .header-tienda {
+  height: 30vh;
+  background-size: cover;
+  background-position: center top;
+  background-image: url(../img/headers/header-home.jpg);
+}
+
+.header-tienda {
+  background-image: url(../img/headers/header2.jpg);
+}
+
+.container-gral, .container-gray {
+  width: 100vw;
+  height: auto;
+  padding: 20px 50px;
+}
+
+.container-gray {
+  background-color: rgb(196, 196, 196);
+}
+
+.box-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.box-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.bg-violet {
+  background-color: #bd9eb8;
+}
+
+.bg-dark-violet {
+  background-color: #7f3472;
+}
+
+.bg-shadow {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.box {
+  width: 100vw;
+  height: 53vh;
+  background-color: grey;
+}
+
+.icon-lang {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-position: center;
+  background: url(../img/icons/icono-any.jpg);
+}
+
+.text-1 {
+  font-size: 0.25em;
+}
+
+.text-2 {
+  font-size: 0.5em;
+}
+
+.text-3 {
+  font-size: 0.75em;
+}
+
+.text-4 {
+  font-size: 1em;
+}
+
+.text-5 {
+  font-size: 1.25em;
+}
+
+.text-6 {
+  font-size: 1.5em;
+}
+
+.facebook-icon {
+  background-image: url(../img/icons/facebook.svg);
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  list-style: none;
+  margin-right: 6px;
+}
+
+.twitter-icon {
+  background-image: url(../img/icons/twitter.svg);
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  list-style: none;
+  margin-right: 6px;
+}
+
+.instagram-icon {
+  background-image: url(../img/icons/instagram.svg);
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  list-style: none;
+  margin-right: 6px;
+}
+
 * {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
@@ -6,7 +134,7 @@
 
 h1 {
   color: deeppink;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 h2 {
@@ -141,7 +269,7 @@ footer ul li a {
   margin: 10px 0;
 }
 .about__list--gris {
-  color: gray;
+  color: rgb(196, 196, 196);
   list-style: square;
   padding-left: 80px;
   font-size: 1.2em;
@@ -244,6 +372,14 @@ footer ul li a {
 }
 .tienda section {
   border-radius: 10px;
+}
+.tienda .text-tienda {
+  font-size: 1.1em;
+  line-height: 1.4em;
+  color: black;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
 }
 
 /****** productos destacados ******/

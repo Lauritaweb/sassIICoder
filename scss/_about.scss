@@ -27,7 +27,7 @@
         &--left{
             display: block;
             text-align: left;
-            color:deeppink;
+            color:$mainColor;
             text-decoration: none;
             font-size: 1.2em;
             margin: 10px 0;
@@ -35,7 +35,7 @@
     }
     &__list{
         &--gris{
-            color: gray;
+            color: $secondaryColor;
             list-style: square;
             padding-left: 80px;
             font-size: 1.2em;

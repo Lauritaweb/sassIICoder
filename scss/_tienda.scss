@@ -98,6 +98,9 @@
     section{
         border-radius: 10px;
     }
+    .text-tienda{
+        @include textos(1.1em, 1.4em, black, 10px,left)
+    }
 }
 
 
