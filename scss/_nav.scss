@@ -1,0 +1,14 @@
+//nesting
+.botonera{
+    background-color: $mainColor;
+    img{
+        width: 150px;
+    }
+    a{
+        color: $white;
+        &:hover{
+            color:black;
+        }
+    }
+}
+

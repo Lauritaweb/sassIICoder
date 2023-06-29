@@ -1,0 +1,100 @@
+//todo lo general de mi proyecto
+*{
+    font-family: $mainFont;
+    box-sizing: border-box;
+}
+h1{
+    color:$mainColor;
+    font-size: $textXl; 
+}
+
+h2{
+    font-size:$textMd;
+}
+
+h3{
+    font-size: $textMd
+}
+
+h1,h2,h3{
+    margin-bottom: 10px;
+}
+
+h1,
+h2,
+h3,
+form label,
+.card h2{
+    color: $mainColor;
+}
+
+p{
+    color:$secondaryColor;
+    font-weight: $textLight;
+    font-size: $textMd;
+    line-height: 1.4em;
+}
+
+.text-black{
+    color: black;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.bg-gris {
+    background-color: $secondaryColor;
+}
+.bg-pink{
+    background-color:$mainColor;
+    color:$white;
+}
+
+/* anuncio */
+.box-top{
+    padding: 4px 0;
+    text-align: center;
+    background-color: white;
+    color: gray;
+    font-size: 0.9em;
+}
+
+//header
+header img{
+    width: 100%;
+ }
+ 
+//footer
+ footer{
+     background-color: deeppink;
+     padding: 10px 60px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     svg{
+        width: 30px;
+        height: 30px;
+        fill:  rgb(206, 206, 206);
+        margin-right: 10px;
+     }
+     a{
+        text-decoration: none;
+     }
+     ul{
+        list-style: none;
+        li{
+            a{
+                color: rgb(255, 255, 255);
+                font-size: 0.9em;
+                text-decoration: none;
+            }
+        }
+     }
+ }
+ 
+     
