@@ -5,15 +5,15 @@
 }
 h1{
     color:$mainColor;
-    font-size: $textXl; 
+    font-size: $textLg; 
 }
 
 h2{
-    font-size:$textMd;
+    font-size:$textLg;
 }
 
 h3{
-    font-size: $textMd
+    font-size: $textLg;
 }
 
 h1,h2,h3{
@@ -29,7 +29,6 @@ form label,
 }
 
 p{
-    color:$secondaryColor;
     font-weight: $textLight;
     font-size: $textMd;
     line-height: 1.4em;
@@ -53,6 +52,18 @@ p{
 .bg-pink{
     background-color:$mainColor;
     color:$white;
+}
+
+.bg-violet{
+    background-color: map-get($map: $paleta, $key:'nueve' );
+}
+
+.bg-dark-violet{
+    background-color: map-get($map: $paleta, $key:'doce' )
+}
+
+.bg-shadow{
+    box-shadow: map-get($map:$paleta , $key:'trece' );
 }
 
 
