@@ -3,6 +3,6 @@ Clonar el repo
 
 - git clone https://github.com/Lauritaweb/sassIICoder.git
 
-Me instalo las dependecias
+Para instalar las dependecias
 
 - npm i
